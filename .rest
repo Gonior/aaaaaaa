@@ -1,0 +1,22 @@
+POST http://localhost:3000/add
+Content-Type: application/json
+
+{
+    "name" : "20OFF",
+    "couponType" : "PERCENTAGE",
+    "amount" : 25,
+    "expiredON" : 2
+}
+
+###
+
+POST http://localhost:3000/check-coupon
+Content-Type: application/json
+
+{
+    "id" : "605cd033dc0ace1e2c4b5050"
+}
+
+###
+
+GET http://localhost:3000
